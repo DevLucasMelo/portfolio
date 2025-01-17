@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.468bd343.chunk.css",
+    "main.js": "/portfolio/static/js/main.a2e46edd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a2e46edd.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
+    "static/css/2.3463eaf4.chunk.css": "/portfolio/static/css/2.3463eaf4.chunk.css",
+    "static/js/2.73857d5d.chunk.js": "/portfolio/static/js/2.73857d5d.chunk.js",
+    "static/js/2.73857d5d.chunk.js.map": "/portfolio/static/js/2.73857d5d.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.3463eaf4.chunk.css.map": "/portfolio/static/css/2.3463eaf4.chunk.css.map",
+    "static/css/main.468bd343.chunk.css.map": "/portfolio/static/css/main.468bd343.chunk.css.map",
+    "static/js/2.73857d5d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.73857d5d.chunk.js.LICENSE.txt",
+    "static/media/theme.css": "/portfolio/static/media/InterVariable.a0e477f2.woff2",
+    "static/media/primeicons.css": "/portfolio/static/media/primeicons.ff0c4cd7.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bf68c44.js",
+    "static/css/2.3463eaf4.chunk.css",
+    "static/js/2.73857d5d.chunk.js",
+    "static/css/main.468bd343.chunk.css",
+    "static/js/main.a2e46edd.chunk.js"
+  ]
+}
