@@ -1,0 +1,134 @@
+.section.projects-images {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+
+.carousel-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative; 
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.carousel-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.p-carousel .p-carousel-indicators {
+  padding: 1rem;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; 
+  margin: 0 5px; 
+  background-color: white; 
+  border: none;
+  transition: background-color 0.3s ease; 
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: lightblue; 
+}
+
+
+.p-carousel .p-carousel-prev-icon {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+.p-carousel .p-carousel-next-icon {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+.p-carousel .p-carousel-content .p-carousel-prev,
+.p-carousel .p-carousel-content .p-carousel-next {
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  border: none; 
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; 
+  z-index: 10; 
+  transition: background-color 0.3s ease; 
+  opacity: 1; 
+}
+
+.p-carousel .p-carousel-content .p-carousel-prev {
+  left: 40px; 
+}
+
+.p-carousel .p-carousel-content .p-carousel-next {
+  right: 40px; 
+}
+
+.p-carousel .p-carousel-content .p-carousel-prev:hover,
+.p-carousel .p-carousel-content .p-carousel-next:hover {
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 0 0.5rem;
+  }
+
+  .carousel-image {
+    max-height: 300px;
+  }
+
+  .p-carousel .p-carousel-content .p-carousel-prev,
+  .p-carousel .p-carousel-content .p-carousel-next {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.carousel-wrapper {
+  display: flex; 
+  align-items: center; 
+}
+
+.carousel-container {
+  flex: 1; 
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  flex-shrink: 0; 
+  margin-bottom: 25px;
+
+}
+
+.thumbnail img {
+  max-width: 236.26px;  
+  max-height: 105.9px; 
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
